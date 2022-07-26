@@ -14,5 +14,5 @@ def number_compare(a, b):
         return 'First is greater'
     elif a < b:
         return 'Second is greater'
-    if a == b:
-        return 'Numbers are equal'
+    
+    return 'Numbers are equal'

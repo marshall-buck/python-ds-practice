@@ -18,3 +18,4 @@ def multiple_letter_count(phrase):
     return frequency_dict
     # x = {char: char + 1 for char in phrase}
     # return x
+    # take a look at solution for shorter approach

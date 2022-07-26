@@ -15,7 +15,7 @@ def weekday_name(day_of_week):
     days_of_the_week = {1: 'Sunday', 2: "Monday", 3: "Tuesday",
                         4: "Wednesday", 5: "Thursday", 6: "Friday", 7: "Saturday"}
 
-    if(day_of_week in days_of_the_week):
-        return days_of_the_week[day_of_week]
+    # if(day_of_week in days_of_the_week):
+    #     return days_of_the_week[day_of_week]
 
-    return None
+    return days_of_the_week.get(day_of_week)

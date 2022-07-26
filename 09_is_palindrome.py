@@ -27,7 +27,6 @@ def is_palindrome(phrase):
 
     reverse_phrase.reverse()
 
-    if(original_phrase == reverse_phrase):
-        return True
-
-    return False
+    return original_phrase == reverse_phrase
+ 
+    #use notation from 05_reverse_string

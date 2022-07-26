@@ -41,6 +41,7 @@ def list_manipulation(lst, command, location, value=None):
         True
     """
 
+    #is there a way to fail fast?
 
     if command == "remove":
         if location == "end":
@@ -56,4 +57,3 @@ def list_manipulation(lst, command, location, value=None):
             lst.insert(0, value)
             return lst
             
-    return None
